@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Poppins" sans-serif;
+    font-family: 'Poppins' sans-serif;
     margin: 20 20;
     min-height: 100vh;
 }
@@ -38,16 +38,17 @@ ul li {
 }
 
 button {
-    background-color: blue;
+    background-color: rgb(191,0,255);
     border: none;
     cursor: pointer;
     color: white;
     display: block;
     font-family: inherit;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     width: 100%;
+    padding: 1.1rem;
 }
 
 button:hover {
-    background-color: darkblue;
+    background-color: rgb(136,0,133);
 }
