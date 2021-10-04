@@ -58,7 +58,7 @@ const quizData = [
     
 ];
 
-const quiz =document.getElementById("quiz");
+const quiz = document.getElementById("quiz");
 const answerEls = document.querySelectorAll(".answer");
 const questionEl = document.getElementById
 ("question");
@@ -75,6 +75,7 @@ loadQuiz();
 
 function loadQuiz() {
     deselectAnswers();
+    
     const currentQuizData = quizData[currentQuiz];
 
     questionEl.innerText = currentQuizData.question;
